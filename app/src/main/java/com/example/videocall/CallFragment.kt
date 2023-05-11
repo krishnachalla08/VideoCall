@@ -1,20 +1,13 @@
 package com.example.videocall
 
 
-import android.app.Application
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.videocall.databinding.FragmentCallBinding
-import com.zegocloud.uikit.prebuilt.call.config.ZegoNotificationConfig
-import com.zegocloud.uikit.prebuilt.call.invite.ZegoUIKitPrebuiltCallInvitationConfig
-import com.zegocloud.uikit.prebuilt.call.invite.ZegoUIKitPrebuiltCallInvitationService
-import com.zegocloud.uikit.prebuilt.call.invite.ZegoUIKitPrebuiltCallInvitationService.*
-import com.zegocloud.uikit.service.defines.ZegoUIKitUser
 
 
 class CallFragment : Fragment() {
