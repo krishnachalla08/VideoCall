@@ -44,6 +44,6 @@ class CallFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
-        unInit()
+
     }
 }
